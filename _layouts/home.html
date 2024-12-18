@@ -124,6 +124,7 @@
                             {% if subitem[0] != "sub" %}                      
                               <li class="subitem">
                                 {{ subitem | markdownify }}
+                                {{ subitem[0] | markdownify }}
                               </li>
                             {% else %}    
                               <li class="subitem2">
