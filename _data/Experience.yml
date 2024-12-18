@@ -3,10 +3,10 @@ listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
   - title: (주)광개토연구소
-    role: Senior Research Engineer
-    description:
+    role1: Senior Research Engineer
+    description1:
       - Led development of a new chatbot software utilizing large language model      
     role2: Senior Research Engineer
-    description:
+    description2:
       - Led development of a new chatbot software utilizing large language model     
     date: 2020.08 - 2024.12
