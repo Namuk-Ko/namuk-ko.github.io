@@ -6,7 +6,7 @@ contents:
     role1: Senior Research Engineer    
     description1:
       - Led development of a new chatbot software utilizing large language model      
-        - Led development of a new chatbot software utilizing large language model
+      - sub: "asdfasdf"        
     role2: Senior Research Engineer
     description2:
       - Led development of a new chatbot software utilizing large language model     
