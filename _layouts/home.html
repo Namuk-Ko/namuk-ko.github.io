@@ -127,7 +127,7 @@
                               </li>
                             {% else %}    
                               <li class="subitem2">
-                                {{ subitem | markdownify }}
+                                {{ subitem[1] | markdownify }}
                               </li>
                             {% endif %}                    
                           {% endfor %}
