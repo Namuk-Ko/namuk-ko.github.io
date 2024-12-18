@@ -3,7 +3,8 @@ title: Namuk Ko
 icon_img: /assets/img/icon.webp
 
 name: "Namuk Ko"
-job: "Data Scientist & Engineer | Cross-Domain 데이터를 통한 IP Analytics 전문가"
+job: "Data Scientist & Engineer" <br>
+description: "Cross-Domain 데이터를 통한 IP Analytics 전문가"
 
 phone_number: 010-5840-4634
 address: Seoul, Korea
