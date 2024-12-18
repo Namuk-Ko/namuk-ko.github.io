@@ -2,7 +2,7 @@ subject: Publications
 listing-order: 4
 icon: "/assets/img/flask.svg"
 contents:
-  - title: Journal
+  - title: "Journal ([Google Scholar](https://scholar.google.com/citations?hl=ko&user=v8c3weAAAAAJ&view_op=list_works&authuser=1&sortby=pubdate))"
     ref: 
       - "[1] **Ko, N.**, Yoon, J., & Seo, W. (2014). “[Analyzing interdisciplinarity of technology fusion using knowledge flows of patents](https://doi.org/10.1016/j.eswa.2013.08.091)”, *Expert systems with applications*, 41(4), 1955-1963."
       - "[2] Ko, S. S., **Ko, N.**, Kim, D., Park, H., & Yoon, J. (2014). “[Analyzing technology impact networks for R&D planning using patents: combined application of network approaches](https://doi.org/10.1007/s11192-014-1343-2)”. *Scientometrics*, 101, 917-936."
