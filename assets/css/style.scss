@@ -20,6 +20,7 @@
     --theme4-dim: #5C8876;
     --theme4-dark: #3D725D;
     --font-dark: #202424;
+    --font-grey: #666666;
 }
 
 html, body {
@@ -277,7 +278,7 @@ a { text-decoration:none; }
         list-style: circle;
         margin-left: 3rem;
         margin-top: 0.5rem;
-        color: #666666 !important;        
+        color: var(--font-grey);        
     }
 
     em { padding: 0 4px 0 1px; }
