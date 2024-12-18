@@ -4,8 +4,14 @@ icon: "/assets/img/flask.svg"
 contents:
   - title: Journal
     ref: 
-      - "[1] **M. Yankovich**, L. Hernández, M. Roveri, “[A symmetric encryption method with biometric authorization for constrained environments](https://scholar.google.com/),” *Cryptography*, vol. x, no. x, pp. xxx–xxx, 202x."
-      - "[7] **Ko, N.**, Jeong, B., Yoon, J., & Son, C. (2020). “[Patent-trademark linking framework for business competition analysis](https://doi.org/10.1016/j.compind.2020.103242)”, *Computers in Industry* 122, 103242."
-  - title: Conference
-    ref:
-      - "[3] I. Lebedev, **M. Yankovich**, L. Wang, G. Segev, “[Post-training of deep bidirectional transformers for language understanding](https://scholar.google.com/),” *in Proc. 99th Annu. Meeting Assoc. Comput. Linguistics*, pp. xxx–xxx, 202x."
+      - "[1] **Ko, N.**, Yoon, J., & Seo, W. (2014). “[Analyzing interdisciplinarity of technology fusion using knowledge flows of patents](https://doi.org/10.1016/j.eswa.2013.08.091)”, *Expert systems with applications*, 41(4), 1955-1963."
+      - "[2] Ko, S. S., **Ko, N.**, Kim, D., Park, H., & Yoon, J. (2014). “[Analyzing technology impact networks for R&D planning using patents: combined application of network approaches](https://doi.org/10.1007/s11192-014-1343-2)”. *Scientometrics*, 101, 917-936."
+      - "[3] Yoon, J., **Ko, N.**, Kim, J., Lee, J. M., Coh, B. Y., & Song, I. (2015). “[A function-based knowledge base for technology intelligence](https://doi.org/10.7232/iems.2015.14.1.073)”. *Industrial Engineering and Management Systems*, 14(1), 73-87."
+      - "[4] Hoon Song, C., Yoon, J., **Ko, N.**, & Han, J. W. (2016). “[Mapping the technological knowledge landscape: The case of epigenetics](https://doi.org/10.2174/1574892811666160825143006)”. *Recent Patents on Anti-Cancer Drug Discovery*, 11(4), 424-433."
+      - "[5] **Ko, N.**, Jeong, B., Choi, S., & Yoon, J. (2017). “[Identifying product opportunities using social media mining: application of topic modeling and chance discovery theory](https://doi.org/10.1109/ACCESS.2017.2780046)”. *IEEE access*, 6, 1680-1693."
+      - "[6] **Ko, N.**, Jeong, B., Seo, W., & Yoon, J. (2019). “[A transferability evaluation model for intellectual property](https://doi.org/10.1016/j.cie.2019.04.011)”. *Computers & Industrial Engineering*, 131, 344-355."
+      - "[7] Oh, S., Choi, J., **Ko, N.**, & Yoon, J. (2020). “[Predicting product development directions for new product planning using patent classification-based link prediction](https://doi.org/10.1007/s11192-020-03709-w)”. *Scientometrics*, 125, 1833-1876."
+      - "[8] Jeong, B., **Ko, N.**, Son, C., & Yoon, J. (2021). “[Trademark-based framework to uncover business diversification opportunities: Application of deep link prediction and competitive intelligence analysis](https://doi.org/10.1016/j.compind.2020.103356)”. *Computers in Industry*, 124, 103356."
+      - "[9] Chung, J., **Ko, N.**, Kim, H., & Yoon, J. (2021). “[Inventor profile mining approach for prospective human resource scouting](https://doi.org/10.1016/j.joi.2020.101103)”. *Journal of Informetrics*, 15(1), 101103."
+      - "[10] Lee, J., **Ko, N.**, Yoon, J., & Son, C. (2021). “[An approach for discovering firm-specific technology opportunities: Application of link prediction to F-term networks](https://doi.org/10.1016/j.techfore.2021.120746)”. *Technological Forecasting and Social Change*, 168, 120746.
+      - "[11] **Ko, N.**, Jeong, B., Yoon, J., & Son, C. (2020). “[Patent-trademark linking framework for business competition analysis](https://doi.org/10.1016/j.compind.2020.103242)”, *Computers in Industry* 122, 103242."    
