@@ -4,7 +4,7 @@ icon: "/assets/img/briefcase.svg"
 contents:
   - title: (주)광개토연구소 - 선임연구원
     role1: Data Engineering
-    description1: |
+    description1:
       - News/RFP(국가R&D과제) 데이터베이스 구축
       - sub: MariaDB(Aria) 기반 ERD 설계 및 데이터베이스 구축
       - sub: Airflow를 활용한 ETL 파이프라인 개발
@@ -16,7 +16,8 @@ contents:
       - sub: Python, Spark 기반 데이터 전처리 및 통합 시스템 개발
       - 특허 관련 DB 구축
       - sub: KR/US 권리자 대상 경쟁기업 DB 구축
-      - sub: "특허 거절 데이터 DB 구축 {::nomarkdown}<br><br>{:/}"
+      - sub: 특허 거절 데이터 DB 구축
+      {::nomarkdown}<br><br>{:/}
     role2: Machine Learning / AI Modeling
     description2:
       - 발명자 인종 분류 모델 개발 (Classification)
