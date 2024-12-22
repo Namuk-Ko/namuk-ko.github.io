@@ -3,13 +3,19 @@ listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
   - title: (주)광개토연구소
-    role1: Senior Research Engineer    
-    description1:
-      Data Engineering
+    role1: Data Engineer
+    description1:      
       - News/RFP(국가R&D과제) 데이터베이스 구축
       - sub: MariaDB(Aria) 기반 ERD 설계 및 데이터베이스 구축
     ㅤ- sub: Airflow를 활용한 ETL 파이프라인 개발
     ㅤ- sub: Python, Spark, ElasticSearch를 활용한 뉴스/RFP - 특허 데이터 연계 시스템 구축
+      - 대규모 학술논문 데이터베이스 구축
+    ㅤ- sub: MariaDB(Aria) 기반 ERD 설계 및 데이터베이스 구축
+    ㅤ- sub: Airflow를 활용한 대규모 오픈 데이터셋(220M+ records) ETL 파이프라인 구축
+    ㅤ- sub: Python, Spark 기반 데이터 전처리 및 통합 시스템 개발
+      - 특허 관련 DB 구축
+      - sub: KR/US 권리자 대상 경쟁기업 DB 구축
+      - sub: 특허 거절 데이터 DB 구축
     role2: Senior Research Engineer
     description2:
       - Led development of a new chatbot software utilizing large language model     
