@@ -20,7 +20,7 @@ contents:
     role2: Machine Learning / AI Modeling
     description2:
       - 발명자 인종 분류 모델 개발 (Classification)
-      - sub: Nama Dataset과 특허 발명자명을 활용한 다국적(주로 한/중/일) 발명자 인종 분류 시스템 구현
+      - sub: Nana Dataset과 특허 발명자명을 활용한 다국적(주로 한/중/일) 발명자 인종 분류 시스템 구현
       - sub: GPT-2 기반 시퀀스 분류 모델 Fine-tuning
       - 키워드 추천 모델 (Recommendation)
       - sub: 미래 동시 출현 키워드(Co-occurrence Keywords) 예측 모델
