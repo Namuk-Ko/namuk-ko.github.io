@@ -2,8 +2,8 @@ subject: Experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: (주)광개토연구소
-    role1: Data Engineer
+  - title: (주)광개토연구소 - 선임연구원
+    role1: Data Engineering
     description1:      
       - News/RFP(국가R&D과제) 데이터베이스 구축
       - sub: MariaDB(Aria) 기반 ERD 설계 및 데이터베이스 구축
@@ -13,7 +13,19 @@ contents:
       - sub: MariaDB(Aria) 기반 ERD 설계 및 데이터베이스 구축
       - sub: Airflow를 활용한 대규모 오픈 데이터셋(220M+ records) ETL 파이프라인 구축
       - sub: Python, Spark 기반 데이터 전처리 및 통합 시스템 개발
-    role2: Senior Research Engineer
+      - 특허 관련 DB 구축
+      - sub: KR/US 권리자 대상 경쟁기업 DB 구축
+      - sub: 특허 거절 데이터 DB 구축
+    role2: Machine Learning / AI Modeling
     description2:
-      - Led development of a new chatbot software utilizing large language model     
+      - 발명자 인종 분류 모델 개발 (Classification)
+      - sub: Nama Dataset과 특허 발명자명을 활용한 다국적(주로 한/중/일) 발명자 인종 분류 시스템 구현
+      - sub: GPT-2 기반 시퀀스 분류 모델 Fine-tuning
+      - 키워드 추천 모델 (Recommendation)
+      - sub: 미래 동시 출현 키워드(Co-occurrence Keywords) 예측 모델
+      - sub: Neural Matrix Factorization 및 Negative Sampling 기반 협업 필터링 모델 구현
+      - 기업/기술분야/발명자 유망성 평가 모델 개발 (Regression)
+      - sub: XGBoost와 LGBM 앙상블 기반 기업/기술/발명자 유망성 평가 모델 구축
+      - 특허 소송 가능성 평가 모델 개발 (Classification)
+      - sub: LGBM 기반 특허 소송 가능성 예측 모델 개발
     date: 2020.08 - 2024.12
