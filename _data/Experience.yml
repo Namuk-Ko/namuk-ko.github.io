@@ -16,7 +16,7 @@ contents:
       - 특허 관련 DB 구축
       - sub: KR/US 권리자 대상 경쟁기업 DB 구축
       - sub: 특허 거절 데이터 DB 구축
-      
+    <br>
     role2: Machine Learning / AI Modeling
     description2:
       - 발명자 인종 분류 모델 개발 (Classification)
