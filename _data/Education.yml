@@ -5,10 +5,12 @@ contents:
   - title: Konkuk University, PhD in Industrial Engieering
     description:
       - "PhD Thesis: A patent trademark data linking approach to business analytics for technology-based firms"      
+      - "기술기반 기업을 위한 특허-상표 데이터 연결 기반의 비즈니스 분석 접근법"
     date: 2018.08 - 2022.02
   - title: Konkuk University, MS in Industrial Engieering
     description:
       - "MS Thesis: A deep neural network based intellectual property transferability evaluation model"
+      - "딥뉴럴네트워크 기반의 지식재산 거래가능성 평가모형"
     #grade: "**GPA**: `4.1/4.3`"
     date: 2016.03 - 2017.08
   - title: Koknuk University, BS in Industrial Engieering
