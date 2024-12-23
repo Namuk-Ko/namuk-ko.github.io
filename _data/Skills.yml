@@ -2,7 +2,7 @@ subject: Skills
 listing-order: 1
 icon: "/assets/img/screwdriver-wrench.svg"
 contents:
-  - title: Programming Languages
+  - title: Languages
     description: "      
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg)      
     "    
