@@ -118,9 +118,7 @@
                   </div>
                   {% for item in member %}
                     {% if item[0] contains "role" %}
-                      <li class="role">                      
-                        {{ item[1] | markdownify }}                        
-                      </li>
+                       <span class="role">{{ item[1] | markdownify }}</span>                    
                     {% endif %}
                     {% if item[0] != "title" and item[0] != "date" %}                      
                       {% if item[1].first %}
