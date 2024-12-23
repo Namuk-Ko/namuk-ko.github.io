@@ -119,6 +119,11 @@
                   {% for item in member %}
                     {% if item[0] contains "role" %}
                        <span class="role">{{ item[1] | markdownify }}</span>                    
+                    {% elsif member.image and member.image contains "[project]" %}                      
+                      {% assign image_path = page.image | split: "(" | last | split: ")" | first %}
+                      <a href="{{ image_path }}" target="_blank">
+                          {{ page.image }}
+                      </a>
                     {% elsif item[0] != "title" and item[0] != "date" %}                      
                       {% if item[1].first %}
                         <ul>
