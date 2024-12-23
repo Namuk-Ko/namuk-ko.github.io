@@ -119,6 +119,11 @@
                   {% for item in member %}
                     {% if item[0] contains "role" %}
                        <span class="role">{{ item[1] | markdownify }}</span>
+                    {% elsif item[0] == "tag" %}                      
+                      {% assign tags = item[1] | split: "," %}
+                      {% for tag in tags %}
+                        <span style="font-weight:400" class="mr-1 badge badge-secondary">{{ tag | strip }}</span>
+                      {% endfor %}
                     {% elsif item[0] != "title" and item[0] != "date" %}                      
                       {% if item[1].first %}
                         <ul>
