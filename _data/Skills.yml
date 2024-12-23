@@ -4,7 +4,8 @@ icon: "/assets/img/screwdriver-wrench.svg"
 contents:
   - title: Programming Languages
     description: "      
-      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg)      
+      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg)
+      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg)                      
     "    
   - title: Frameworks
     description: "
