@@ -10,5 +10,5 @@ contents:
       - Airflow를 활용한 RFP 데이터 ETL 파이프라인 구축
       - RFP - 특허 데이터(기업, 기술분야, 기술키워드 등) 연계      
       - tag: Python,Spark,MariaDB,Airflow,ElasticSearch
-    image: "![](/assets/img/RFP과제.png)"
+    image: "![project](/assets/img/RFP과제.png)"
     date: 2021.04 - 2021.10
