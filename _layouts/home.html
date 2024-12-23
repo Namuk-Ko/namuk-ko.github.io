@@ -122,7 +122,7 @@
                     {% elsif item[0] == "tag" %}                      
                       {% assign tags = item[1] | split: "," %}
                       {% for tag in tags %}
-                        <span style="font-weight:400" class="mr-1 badge badge-secondary">{{ tag | strip | markdownify }}</span>
+                        <span style="font-weight:400" class="tag">{{ tag | strip | markdownify }}</span>
                       {% endfor %}
                     {% elsif item[0] != "title" and item[0] != "date" %}                      
                       {% if item[1].first %}
