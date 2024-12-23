@@ -129,9 +129,11 @@
                               </li>
                             {% elsif subitem.tag %}                      
                               {% assign tags = subitem.tag | split: "," %}
-                              {% for tag in tags %}
-                                <span class="tag">{{ tag | strip | markdownify }}</span>
-                              {% endfor %}
+                              <div style="margin-left: 2rem;">
+                                {% for tag in tags %}
+                                  <span class="tag">{{ tag | strip | markdownify }}</span>
+                                {% endfor %}
+                              </div>
                             {% else %}                                  
                               <li class="subitem">
                                 {{ subitem | markdownify }}                                
