@@ -3,12 +3,14 @@ listing-order: 5
 icon: "/assets/img/flask.svg"
 contents:
   - title: "Journal ([Google Scholar](https://scholar.google.com/citations?hl=ko&user=v8c3weAAAAAJ&view_op=list_works&authuser=1&sortby=pubdate))"
-    ref1: First Author       
+    role1: First Author
+    description1:
       - "[1] **Ko, N.**, Jeong, B., Yoon, J., & Son, C. (2020). “[Patent-trademark linking framework for business competition analysis](https://doi.org/10.1016/j.compind.2020.103242)”, *Computers in Industry* 122, 103242."    
       - "[2] **Ko, N.**, Jeong, B., Seo, W., & Yoon, J. (2019). “[A transferability evaluation model for intellectual property](https://doi.org/10.1016/j.cie.2019.04.011)”. *Computers & Industrial Engineering*, 131, 344-355."
       - "[3] **Ko, N.**, Jeong, B., Choi, S., & Yoon, J. (2017). “[Identifying product opportunities using social media mining: application of topic modeling and chance discovery theory](https://doi.org/10.1109/ACCESS.2017.2780046)”. *IEEE access*, 6, 1680-1693."
       - "[4] **Ko, N.**, Yoon, J., & Seo, W. (2014). “[Analyzing interdisciplinarity of technology fusion using knowledge flows of patents](https://doi.org/10.1016/j.eswa.2013.08.091)”, *Expert systems with applications*, 41(4), 1955-1963."
-    ref2: Contributor  
+    role2: Co-author
+    description2:
       - "[5] Chung, J., **Ko, N.**, & Yoon, J. (2021). “[Inventor group identification approach for selecting university-industry collaboration partners](https://doi.org/10.1016/j.techfore.2021.120988)”. *Technological Forecasting and Social Change*, 171, 120988."
       - "[6] Lee, J., **Ko, N.**, Yoon, J., & Son, C. (2021). “[An approach for discovering firm-specific technology opportunities: Application of link prediction to F-term networks](https://doi.org/10.1016/j.techfore.2021.120746)”. *Technological Forecasting and Social Change*, 168, 120746."
       - "[7] Chung, J., **Ko, N.**, Kim, H., & Yoon, J. (2021). “[Inventor profile mining approach for prospective human resource scouting](https://doi.org/10.1016/j.joi.2020.101103)”. *Journal of Informetrics*, 15(1), 101103."
