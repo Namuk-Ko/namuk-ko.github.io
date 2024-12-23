@@ -21,6 +21,7 @@
     --theme4-dark: #3D725D;
     --font-dark: #202424;
     --font-grey: #666666;
+    --font-role: #333333;
 }
 
 html, body {
@@ -278,6 +279,7 @@ a { text-decoration:none; }
     
     .role {        
         font-weight:bold;
+        color: var(--font-role);
     }
     
     .subitem2 {
