@@ -119,7 +119,7 @@
                   {% for item in member %}
                     {% if item[0] contains "role" %}
                        <span class="role">{{ item[1] | markdownify }}</span>                    
-                    {% elsif member.image and member.image contains "[project]" %}                      
+                    {% elsif member.image and member.image contains "[project]" %} <!-- Project Image 구분 -->
                       {% assign image_path = page.image | split: "(" | last | split: ")" | first %}
                       <a href="{{ image_path }}" target="_blank">
                           {{ page.image }}
@@ -128,11 +128,11 @@
                       {% if item[1].first %}
                         <ul>
                           {% for subitem in item[1] %}
-                            {% if subitem.sub %}                      
+                            {% if subitem.sub %}   <!-- 추가 들여쓰기 위함 -->
                               <li class="subitem2">
                                 {{ subitem.sub | markdownify }}
                               </li>
-                            {% elsif subitem.tag %}                      
+                            {% elsif subitem.tag %}    <!-- tag 구분 -->                   
                               {% assign tags = subitem.tag | split: "," %}
                               <div style="margin-left: 2rem;">
                                 {% for tag in tags %}
