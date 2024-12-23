@@ -7,4 +7,4 @@ contents:
       - Chatbot developed based on a large language model
       - Designed Generative algorithm to generate novel human-like content
       - "Technology Used: Rust, Typescript, Python, Ruby"
-    tag: Python,Spark,MariaDB
+      - tag: Python,Spark,MariaDB
