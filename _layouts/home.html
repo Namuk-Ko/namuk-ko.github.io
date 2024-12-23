@@ -118,12 +118,7 @@
                   </div>
                   {% for item in member %}
                     {% if item[0] contains "role" %}
-                       <span class="role">{{ item[1] | markdownify }}</span>
-                    {% elsif item[0] == "tag" %}                      
-                      {% assign tags = item[1] | split: "," %}
-                      {% for tag in tags %}
-                        <span class="tag">{{ tag | strip | markdownify }}</span>
-                      {% endfor %}
+                       <span class="role">{{ item[1] | markdownify }}</span>                    
                     {% elsif item[0] != "title" and item[0] != "date" %}                      
                       {% if item[1].first %}
                         <ul>
@@ -132,6 +127,11 @@
                               <li class="subitem2">
                                 {{ subitem.sub | markdownify }}
                               </li>
+                            {% elsif subitem.tag %}                      
+                              {% assign tags = item[1] | split: "," %}
+                              {% for tag in tags %}
+                                <span class="tag">{{ tag | strip | markdownify }}</span>
+                              {% endfor %}
                             {% else %}                                  
                               <li class="subitem">
                                 {{ subitem | markdownify }}                                
