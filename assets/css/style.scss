@@ -284,7 +284,7 @@ a { text-decoration:none; }
 
     .tag {
         display: inline-block;
-        padding: 0px 8px;
+        padding: 0.1em 0.4em;
         font-size: 75%;
         line-height: 1;
         text-align: center;
@@ -293,6 +293,10 @@ a { text-decoration:none; }
         border-radius: .25rem;
         background-color: #6c757d;
         color: white;
+    }
+    .tag p {
+        margin: 0;
+        padding: 0;
     }
     
     .subitem2 {
