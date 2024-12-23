@@ -306,6 +306,11 @@ a { text-decoration:none; }
         color: var(--font-grey);        
     }
 
+    img[alt="project"] { 
+        height: 240px;
+        width: 320px;        
+    }
+    
     /*------------끝---------*/
     
     em { padding: 0 4px 0 1px; }
