@@ -117,7 +117,9 @@
                     {% endif %}
                   </div>
                   {% for item in member %}
-                    {% if item[0] != "title" and item[0] != "date" %}                      
+                    {% if item[0] contains "role" %}
+                       <span class="role">{{ item[1] | markdownify }}</span>
+                    {% elsif item[0] != "title" and item[0] != "date" %}                      
                       {% if item[1].first %}
                         <ul>
                           {% for subitem in item[1] %}
@@ -135,8 +137,6 @@
                       {% else %}
                         {{ item[1] | markdownify }}
                       {% endif %}
-                    {% elsif item[0] contains "role" %}
-                       <span class="role">{{ item[1] | markdownify }}</span>
                     {% endif %}
                   {% endfor %}
               </li>
