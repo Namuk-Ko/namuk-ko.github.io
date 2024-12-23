@@ -281,6 +281,17 @@ a { text-decoration:none; }
         font-weight: bold;
         color: var(--font-role);
     }
+
+    .tag {
+        display: inline-block;
+        padding: .25em .4em;
+        font-size: 75%;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: .25rem;
+    }
     
     .subitem2 {
         list-style: circle;
