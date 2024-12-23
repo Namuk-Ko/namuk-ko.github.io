@@ -2,9 +2,7 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
+  - title: "Test"
     description: 
-      - Chatbot developed based on a large language model
-      - Designed Generative algorithm to generate novel human-like content
-      - "Technology Used: Rust, Typescript, Python, Ruby"
-      - tag: Python,Spark,MariaDB
+      - 테스트입니다.
+      - tag: Python,Spark,MariaDB,Airflow,ElasticSearch
