@@ -18,14 +18,14 @@ contents:
 
   - title: "국적(인종) 추정 모델"
     cf: (주)광개토연구소 — 내부 프로젝트
-    description:     
+    description:   
       - 인종추정 모델 기획 및 총괄
       - 사람의 이름을 가지고 현재 국적이 아닌, 본국을 추정하는 모델
       - sub: 주로 한국, 중국, 일본, 그리고 그 외 국가들을 구분하는 것을 1차 목적으로 함
-      - [Nana Dataset](https://www.kaggle.com/datasets/bryanpark/nana-dataset)과 발명자 데이터를 활용
+      - "[Nana Dataset](https://www.kaggle.com/datasets/bryanpark/nana-dataset)과 발명자 데이터를 활용"
       - sub: Nana dataset은 Wikipedia의 사람과 국적을 수집하여 구성된 데이터      
       - sub: 한, 중, 일 데이터가 상대적으로 적어 발명자 영문명 데이터를 추가로 활용
-      - [GPT-2 기반 시퀀스 분류 모델](https://huggingface.co/docs/transformers/model_doc/gpt2#transformers.GPT2ForSequenceClassification) Fine-tuning하여 최종 모델 구축      
+      - "[GPT-2 기반 시퀀스 분류 모델](https://huggingface.co/docs/transformers/model_doc/gpt2#transformers.GPT2ForSequenceClassification) Fine-tuning하여 최종 모델 구축"
       - sub: 확률적으로 공백을 제거하고, 성-이름 위치를 변경하는 등의 전처리를 수행하여 학습셋 구축
       - FastAPI로 모델을 서빙하여 특허의 발명자, 논문의 저자 인종 추정에 활용
       - tag: Python,FastAPI
