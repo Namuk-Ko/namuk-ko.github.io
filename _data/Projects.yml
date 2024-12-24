@@ -16,7 +16,7 @@ contents:
     image2: "![project](/assets/img/Strategy2.png)"
     date: 2022.10 - 2024.12
 
-  - title: "국적(인종) 추정 모델"
+  - title: "국적(인종) 추정 모델 개발"
     cf: (주)광개토연구소 — 내부 프로젝트
     description:   
       - 인종추정 모델 기획 및 총괄
@@ -33,7 +33,7 @@ contents:
     image2: "![project](/assets/img/name2.png)"
     date: 2024.06 - 2024.10
   
-  - title: "국가 R&D 과제 DB구축 및 특허 데이터와의 연계"
+  - title: "국가 R&D 과제 DB구축 및 특허 데이터 연계"
     cf: (주)광개토연구소 — AI바우처 (with 특허법인수)
     description: 
       - 아이디어 제안 및 총괄
