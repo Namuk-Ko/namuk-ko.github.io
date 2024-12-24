@@ -3,7 +3,7 @@ listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
   - title: "특허-논문-Web 통합 기술전략 시스템 개발"
-    cf: 구매조건부신제품개발사업 (with 삼성전자)
+    cf: (주)광개토연구소 — 구매조건부신제품개발사업 (with 삼성전자)
     description:     
       - 논문, Github 데이터 수집-관리 프로세스 기획 및 구축
       - Research Paper 데이터 ERD 설계 및 MariaDB 기반 DB 구축      
@@ -17,7 +17,7 @@ contents:
     date: 2022.10 - 2024.12
 
   - title: "국적(인종) 춪어 모델"
-    cf: 서비스용 모델 개발
+    cf: (주)광개토연구소 — 내부 프로젝트
     description:     
       - 사람의 이름을 가지고 현재 국적이 아닌, 본국을 추정하는 모델
       - sub: 주로 한국, 중국, 일본, 그리고 그 외 국가들을 구분하는 것을 1차 목적으로 함
@@ -35,7 +35,7 @@ contents:
     date: 2024.06 - 2024.10
   
   - title: "국가 R&D 과제 DB구축 및 특허 데이터와의 연계"
-    cf: AI바우처 with 특허법인수
+    cf: (주)광개토연구소 — AI바우처 with 특허법인수
     description: 
       - 아이디어 제안 및 프로젝트 운영
       - 국가 R&D 과제 RFP(Request for Proposal) 데이터 수집 프로세스 기획
