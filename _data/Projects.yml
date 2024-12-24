@@ -4,6 +4,17 @@ icon: "/assets/img/clipboard-list.svg"
 contents:
   - title: "국가 R&D 과제 DB구축 및 특허 데이터와의 연계"
     description: 
+      - cf: 구매조건부신제품개발사업 with 삼성전자
+      - 논문 DB 구축
+      - RFP - 특허 데이터(기업, 기술분야, 기술키워드 등) 연계      
+      - tag: Python,Spark,MariaDB,Airflow,ElasticSearch
+    image1: "![project](/assets/img/RFP과제.png)"
+    image2: "![project](/assets/img/RFP과제2.png)"
+    date: 2022.10 - 2024.12
+  
+  - title: "국가 R&D 과제 DB구축 및 특허 데이터와의 연계"
+    description: 
+      - cf: AI바우처 with 특허법인수
       - 아이디어 제안 및 프로젝트 운영
       - 국가 R&D 과제 RFP(Request for Proposal) 데이터 수집 프로세스 기획
       - RFP 데이터 ERD 설계 및 MariaDB 기반 DB 구축
