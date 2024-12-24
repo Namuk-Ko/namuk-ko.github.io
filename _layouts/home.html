@@ -117,9 +117,9 @@
                     {% endif %}
                   </div>
                   {% for item in member %}
-                    {% if item[0] contains "role" %}
+                    {% if item[0] contains "role" %} <!-- 역할 -->
                       <span class="role">{{ item[1] | markdownify }}</span>                    
-                    {% elsif item[0] contains "cf" %}                    
+                    {% elsif item[0] contains "cf" %} <!-- Project cf -->                   
                         <span class="cf"> {{ item[1] | markdownify }}  </span>
                     {% elsif item[0] contains "image" and item[1] contains "[project]" %} <!-- Project Image 구분 -->
                       {% assign image_path = item[1] | split: "(" | last | split: ")" | first %}
