@@ -15,6 +15,24 @@ contents:
     image1: "![project](/assets/img/Strategy.png)"
     image2: "![project](/assets/img/Strategy2.png)"
     date: 2022.10 - 2024.12
+
+  - title: "국적(인종) 춪어 모델"
+    cf: 서비스용 모델 개발
+    description:     
+      - 사람의 이름을 가지고 현재 국적이 아닌, 본국을 추정하는 모델
+      - sub: 주로 한국, 중국, 일본, 그리고 그 외 국가들을 구분하는 것을 1차 목적으로 함
+      - Nana Dataset과 발명자 데이터를 활용
+      - sub: Nana dataset은 Wikipedia의 사람과 국적을 수집하여 구성된 데이터
+      - sub: https://www.kaggle.com/datasets/bryanpark/nana-dataset
+      - sub: 한, 중, 일 데이터가 상대적으로 적어 발명자 영문명 데이터를 추가로 활용
+      - GPT-2 기반 시퀀스 분류 모델 Fine-tuning하여 최종 모델 구축
+      - sub: https://huggingface.co/docs/transformers/model_doc/gpt2#transformers.GPT2ForSequenceClassification
+      - sub: 확률적으로 공백을 제거하고, 성-이름 위치를 변경하는 등의 전처리를 수행하여 학습셋 구축
+      - FastAPI로 모델을 서빙하여 특허의 발명자, 논문의 저자 인종 추정에 활용
+      - tag: Python,FastAPI
+    image1: "![project](/assets/img/name.png)"
+    image2: "![project](/assets/img/name2.png)"
+    date: 2024.06 - 2024.10
   
   - title: "국가 R&D 과제 DB구축 및 특허 데이터와의 연계"
     cf: AI바우처 with 특허법인수
