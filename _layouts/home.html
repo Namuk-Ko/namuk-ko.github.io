@@ -140,6 +140,10 @@
                                   <span class="tag">{{ tag | strip | markdownify }}</span>
                                 {% endfor %}
                               </div>
+                            {% elsif subitem.cf %}    <!-- 참고용 문구 -->                   
+                              <span class="cf">
+                                {{ subitem.cf | markdownify }}
+                              </span>
                             {% else %}                                  
                               <li class="subitem">
                                 {{ subitem | markdownify }}                                
