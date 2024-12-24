@@ -281,7 +281,12 @@ a { text-decoration:none; }
         font-weight: bold;
         color: var(--font-role);
     }
-
+    
+    .cf {                
+        font-style: oblique;
+        color: var(--font-grey);        
+    }
+    
     .tag {        
         display: inline-block;
         padding: 0.1em 0.4em;
@@ -297,12 +302,6 @@ a { text-decoration:none; }
     .tag p {
         margin: 0;
         padding: 0;
-    }
-
-    .cf {        
-        margin-left: 2rem;        
-        font-style: oblique;
-        color: var(--font-grey);        
     }
     
     .subitem2 {
