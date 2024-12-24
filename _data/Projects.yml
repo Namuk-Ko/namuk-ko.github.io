@@ -9,7 +9,7 @@ contents:
       - Research Paper 데이터 ERD 설계 및 MariaDB 기반 DB 구축      
       - sub: 복수개의 Academic Databse 통합 (ex) Semantic Scholar, Openalex, ...)
       - Github 데이터 ERD 설계 및 MariaDB 기반 DB 구축
-      - Airflow를 활용한 RFP 데이터 ETL 파이프라인 구축
+      - Airflow를 활용한 Paper/Github 데이터 ETL 파이프라인 구축
       - Entity(Author, Institution, ...)별 Feature 산출
       - tag: Python,Spark,MariaDB,Airflow
     image1: "![project](/assets/img/Strategy.png)"
