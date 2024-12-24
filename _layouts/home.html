@@ -123,7 +123,7 @@
                       {% assign image_path = item[1] | split: "(" | last | split: ")" | first %}
                       <a href="{{ image_path }}" target="_blank">
                           <!-- {{ item[1] | markdownify }} -->
-                          <img src="{{ item[1] }}" alt="project">  <!-- p태그로 감싸지는거 빼기위함 -->
+                          <img src="{{ image_path }}" alt="project">  <!-- p태그로 감싸지는거 빼기위함 -->
                       </a>
                     {% elsif item[0] != "title" and item[0] != "date" %}                      
                       {% if item[1].first %}
