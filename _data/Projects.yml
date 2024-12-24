@@ -4,7 +4,7 @@ icon: "/assets/img/clipboard-list.svg"
 contents:
   - title: "국가 R&D 과제 DB구축 및 특허 데이터와의 연계"
     description: 
-      - cf: 구매조건부신제품개발사업 with 삼성전자
+      - cf: 구매조건부신제품개발사업 (with 삼성전자)
       - 논문 DB 구축
       - RFP - 특허 데이터(기업, 기술분야, 기술키워드 등) 연계      
       - tag: Python,Spark,MariaDB,Airflow,ElasticSearch
