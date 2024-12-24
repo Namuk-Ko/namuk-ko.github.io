@@ -119,6 +119,8 @@
                   {% for item in member %}
                     {% if item[0] contains "role" %}
                       <span class="role">{{ item[1] | markdownify }}</span>                    
+                    {% elsif item[0] contains "cf" %}    <!-- 참고용 문구 -->                   
+                        <span class="cf"> {{ item[1] | markdownify }}  </span>
                     {% elsif item[0] contains "image" and item[1] contains "[project]" %} <!-- Project Image 구분 -->
                       {% assign image_path = item[1] | split: "(" | last | split: ")" | first %}
                       <a href="{{ image_path }}" target="_blank">
@@ -139,11 +141,7 @@
                                 {% for tag in tags %}
                                   <span class="tag">{{ tag | strip | markdownify }}</span>
                                 {% endfor %}
-                              </div>
-                            {% elsif subitem.cf %}    <!-- 참고용 문구 -->                   
-                              <span class="cf">
-                                {{ subitem.cf | markdownify }}
-                              </span>
+                              </div>                            
                             {% else %}                                  
                               <li class="subitem">
                                 {{ subitem | markdownify }}                                
