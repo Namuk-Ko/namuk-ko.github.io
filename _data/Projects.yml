@@ -6,12 +6,14 @@ contents:
     cf: (주)광개토연구소 — 구매조건부신제품개발사업 (with 삼성전자)
     description:     
       - 논문, Github 데이터 수집-관리 프로세스 기획 및 총괄
-      - Research Paper 데이터 ERD 설계 및 MariaDB 기반 DB 구축      
+      - 2억+ 건 학술논문 DB 구축 및 특허 데이터 연계 시스템 개발
       - sub: 복수개의 Academic Databse 통합 (ex) Semantic Scholar, Openalex, ...)
-      - Github 데이터 ERD 설계 및 MariaDB 기반 DB 구축
-      - Airflow를 활용한 Paper/Github 데이터 ETL 파이프라인 구축
-      - Entity(Author, Institution, ...)별 Feature 산출
-      - 데이터 분석 및 시각화
+      - Ubuntu 서버 환경에서 MariaDB 기반 대용량 DB 설계 및 Aria Engine 활용한 Bulk Insert 성능 최적화
+      - Docker 컨테이너 기반 데이터 수집 환경, Ray 활용 병렬 처리로 AWS 데이터 다운로드
+      - pySpark를 통한 저널/학회/기관별 Feature 데이터 생성 및 HDFS 연동
+      - sub: 저널/학회/기관별 통계치 및 항목별 키워드 트렌드 분석 지표 산출
+      - MongoDB, Elasticsearch 연동하여 검색 최적화 및 서비스 데이터 제공
+      - Airflow 월단위 자동 업데이트 파이프라인 구축 및 Slack 알림 시스템 구축
       - tag: Python,Spark,MariaDB,Airflow
     image1: "![project](/assets/img/Strategy.png)"
     image2: "![project](/assets/img/Strategy2.png)"
@@ -38,11 +40,12 @@ contents:
     cf: (주)광개토연구소 — AI바우처 (with 특허법인수)
     description: 
       - 아이디어 제안 및 프로젝트 총괄
-      - 국가 R&D 과제 RFP(Request for Proposal) 데이터 수집 프로세스 기획
-      - RFP 데이터 ERD 설계 및 MariaDB 기반 DB 구축
-      - Airflow를 활용한 RFP 데이터 ETL 파이프라인 구축
-      - RFP - 특허 Entity(기업, 기술분야, 기술키워드 등) 간 연계
-      - 기업/기술분야/키워드/연구자별 RFP 매칭 및 추천
+      - 국가 R&D 과제 RFP (제안요청서) 수집 및 특허 데이터 연계 시스템 구축
+      - MariaDB 기반 과제 DB 설계, 부처/기관/과제별 RFP 서지정보 및 텍스트 데이터 관리
+      - 일 단위 과제공고 크롤링 및 수동 데이터화 프로세스를 위한 파이프라인 구축
+      - pySpark 활용 기업/발명자/기술분야별 RFP 추천 알고리즘 구현 (유사도 + 최신성 가중치 반영)
+      - sub: RFP - 특허 Entity(기업, 기술분야, 기술키워드 등) 간 연계
+      - Airflow 기반 일 단위 공고 수집, 일 3회 작업완료 파일 업로드 자동화 체계 구축
       - tag: Python,Spark,MariaDB,Airflow,ElasticSearch
     image1: "![project](/assets/img/RFP과제.png)"
     image2: "![project](/assets/img/RFP과제2.png)"
