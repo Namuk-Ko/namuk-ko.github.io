@@ -3,10 +3,10 @@ listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
   - title: (주)워트인텔리전스
-    role: Data Engineer
-    date: 2025.07 - (..ing)
+    role: Data Engineer {::nomarkdown}<br><br>{:/}
+    date: 2025.07 - 
   - title: (주)광개토연구소 - 선임연구원
-    role1: Data Engineering
+    role1: Data Engineering 
     description1:
       - News/RFP(국가R&D과제) 데이터베이스 구축
       - sub: MariaDB(Aria) 기반 ERD 설계 및 데이터베이스 구축
