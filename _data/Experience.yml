@@ -2,6 +2,9 @@ subject: Experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
+  - title: (주)워트인텔리전스
+    role: Data Engineer
+    date: 2025.07 - (..ing)
   - title: (주)광개토연구소 - 선임연구원
     role1: Data Engineering
     description1:
