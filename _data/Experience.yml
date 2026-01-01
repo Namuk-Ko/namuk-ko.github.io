@@ -11,7 +11,7 @@ contents:
       - sub: HAProxy 기반 로드밸런싱 구성 (검색/인덱싱 트래픽 분리)
       - 데이터 파이프라인 개발
       - sub: Airflow 기반 ETL 파이프라인 구축
-      - sub: Elasticsearch, Kudu/Impala 등 이기종 데이터베이스 통합 운영
+      - sub: 다중 데이터 소스(Elasticsearch, Kudu/Impala) 연동
       - 모니터링 및 안정성
       - sub: Prometheus + Grafana 모니터링 대시보드 구축
       - sub: Slack 알림 연동으로 실시간 장애 감지 체계 구현 {::nomarkdown}<br>{:/}
