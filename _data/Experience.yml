@@ -14,7 +14,7 @@ contents:
       - sub: Elasticsearch, Kudu/Impala 등 이기종 데이터베이스 통합 운영
       - 모니터링 및 안정성
       - sub: Prometheus + Grafana 모니터링 대시보드 구축
-      - sub: Slack 알림 연동으로 실시간 장애 감지 체계 구현 {::nomarkdown}<br><br>{:/}
+      - sub: Slack 알림 연동으로 실시간 장애 감지 체계 구현 {::nomarkdown}<br>{:/}
     role2: Data Governance
     description2:
       - Data Atlas 프로젝트
@@ -36,7 +36,7 @@ contents:
       - sub: Python, Spark 기반 데이터 전처리 및 통합 시스템 개발
       - 특허 관련 DB 구축
       - sub: KR/US 권리자 대상 경쟁기업 DB 구축
-      - sub: 특허 거절 데이터 DB 구축 {::nomarkdown}<br><br>{:/}
+      - sub: 특허 거절 데이터 DB 구축 {::nomarkdown}<br>{:/}
     role2: Machine Learning / AI Modeling
     description2:
       - 발명자 인종 분류 모델 개발 (Classification)
