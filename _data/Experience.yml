@@ -3,8 +3,25 @@ listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
   - title: (주)워트인텔리전스
-    role: Data Engineer {::nomarkdown}<br><br>{:/}
+    role1: Data Engineering
+    description1:
+      - 벡터 데이터베이스 인프라 구축 및 운영
+      - sub: 100M+ 특허 문서를 처리하는 Qdrant 5노드 클러스터 설계 및 구축
+      - sub: Blue-Green 배포 전략 적용으로 무중단 데이터 갱신 체계 확립
+      - sub: HAProxy 기반 로드밸런싱 구성 (검색/인덱싱 트래픽 분리)
+      - 데이터 파이프라인 개발
+      - sub: Airflow 기반 ETL 파이프라인 구축
+      - sub: Elasticsearch, Kudu/Impala 등 이기종 데이터베이스 통합 운영
+      - 모니터링 및 안정성
+      - sub: Prometheus + Grafana 모니터링 대시보드 구축
+      - sub: Slack 알림 연동으로 실시간 장애 감지 체계 구현 {::nomarkdown}<br><br>{:/}
+    role2: Data Governance
+    description2:
+      - Data Atlas 프로젝트
+      - sub: 특허 데이터 표준화 및 데이터 리니지 체계 설계
+      - sub: OpenMetadata 기반 데이터 디스커버리 환경 구축
     date: 2025.07 - 
+    
   - title: (주)광개토연구소 - 선임연구원
     role1: Data Engineering 
     description1:
