@@ -10,7 +10,7 @@ contents:
     description: "
       ![devicon](https://qdrant.tech/img/brand-resources-logos/qdrant-logo-red-black.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elasticsearch/elasticsearch-original-wordmark.svg)
-      ![devicon](https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/scylladb.svg)
+      ![devicon](/assets/img/scylladb-wordmark.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original-wordmark.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg)
@@ -19,7 +19,7 @@ contents:
     description: "
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original-wordmark.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apacheairflow/apacheairflow-original-wordmark.svg)
-      ![devicon](https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/databricks.svg)
+      ![devicon](/assets/img/databricks-wordmark.svg)
     "
   - title: Chemistry
     description: "
