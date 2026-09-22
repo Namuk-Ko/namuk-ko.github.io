@@ -1,24 +1,29 @@
 subject: Skills
-listing-order: 1
+listing-order: 2
 icon: "/assets/img/screwdriver-wrench.svg"
 contents:
   - title: Languages
-    description: "      
-      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg)      
-    "    
+    description: "
+      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg)
+    "
   - title: Storage
     description: "
       ![devicon](https://qdrant.tech/img/brand-resources-logos/qdrant-logo-red-black.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elasticsearch/elasticsearch-original-wordmark.svg)
-      ![devicon](https://upload.wikimedia.org/wikipedia/commons/f/fb/Apache_Kudu_logo.svg)
+      ![devicon](https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/scylladb.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original-wordmark.svg)
-      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg)      
+      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg)
     "
   - title: Processing
-    description: "      
-      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original-wordmark.svg)      
+    description: "
+      ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original-wordmark.svg)
       ![devicon](https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apacheairflow/apacheairflow-original-wordmark.svg)
+      ![devicon](https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/databricks.svg)
+    "
+  - title: Chemistry
+    description: "
+      ![devicon](https://www.rdkit.org/Images/logo.png)
     "
   - title: Observability
     description: "
