@@ -2,12 +2,12 @@ groups:
   - name: "Search & Storage"
     items: [Qdrant, Elasticsearch, ScyllaDB, Aurora, MariaDB, MongoDB]
   - name: "Processing"
-    items: [Spark, Databricks, Delta Lake, Airflow, Ray]
-  - name: "LLM & ML"
-    items: [LLM 추출 파이프라인, 프롬프트 평가, GPT-2 fine-tuning, XGBoost, LightGBM]
-  - name: "Chemistry"
-    items: [RDKit, PubChem, 화합물 정규화]
+    items: [Python, Spark, Databricks, Delta Lake, Airflow, Ray]
+  - name: "LLM Pipeline"
+    items: [대규모 배치 추론 운영, 프롬프트 설계, 구조화 출력(JSON) 설계, 정답셋 기반 품질 평가]
+  - name: "ML & Serving"
+    items: [GPT-2 fine-tuning, XGBoost, LightGBM, FastAPI]
+  - name: "Chemical Data"
+    items: [RDKit, SMILES, InChIKey]
   - name: "Ops & Governance"
     items: [Prometheus, Grafana, Docker, OpenMetadata]
-  - name: "Languages & Serving"
-    items: [Python, FastAPI]
