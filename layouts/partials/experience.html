@@ -10,6 +10,7 @@
       <span class="date">{{ .date }}</span>
     </div>
     {{ with .desc }}<p class="co-desc">{{ . }}</p>{{ end }}
+    {{ with .note }}<p class="co-note">{{ . }}</p>{{ end }}
 
     {{ range .roles }}
     <div class="role-card">
