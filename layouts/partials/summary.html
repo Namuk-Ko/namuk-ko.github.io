@@ -1,0 +1,11 @@
+{{ with hugo.Data.Summary }}
+<section id="summary">
+  <div class="sec-head"><span class="idx">01</span><h2>Summary</h2></div>
+  <div class="focus">
+    {{ range .focus }}
+    <div class="focus-item"><h3>{{ .title }}</h3><p>{{ .text }}</p></div>
+    {{ end }}
+  </div>
+  <div class="principle">{{ .principle }}</div>
+</section>
+{{ end }}

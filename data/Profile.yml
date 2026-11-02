@@ -1,0 +1,32 @@
+# 첫 화면(hero) 영역
+eyebrow: "DATA ENGINEER · PhD, INDUSTRIAL ENGINEERING"
+company: "워트인텔리전스"
+role: "신규 서비스 데이터 TF 리드 · 데이터 총괄"
+headline: "서로 다른 데이터를 연계해 새로운 검색·분석 축을 만드는 일을 해왔습니다."
+intro: "박사논문의 특허-상표 연계에서 시작해 특허-외부데이터로, 지금은 특허-화합물로 이어집니다."
+
+# label: 버튼 텍스트, url: 링크 (빈 값이면 표시 안 함)
+links:
+  - label: "kmu1009@gmail.com"
+    url: "mailto:kmu1009@gmail.com"
+  - label: "LinkedIn"
+    url: "https://www.linkedin.com/in/namuk-ko-4880b11b8"
+  - label: "Google Scholar"
+    url: "https://scholar.google.com/citations?hl=ko&user=v8c3weAAAAAJ"
+  - label: "GitHub"
+    url: ""
+
+# 핵심 수치 카드 (4개 권장)
+metrics:
+  - value: "1.06"
+    unit: "억"
+    label: "특허 벡터 검색 대상"
+  - value: "1.56"
+    unit: "억"
+    label: "화합물 엔티티"
+  - value: "18.5"
+    unit: "억"
+    label: "특허-화합물 관계"
+  - value: "94.4"
+    unit: "%"
+    label: "LLM 추출 정확도"

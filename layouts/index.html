@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.Title }}</title>
+  <meta name="description" content="{{ site.Params.description }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ site.Title }}">
+  <meta property="og:description" content="{{ site.Params.description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:locale" content="ko_KR">
+  <link rel="icon" type="image/webp" href="{{ site.Params.icon | relURL }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  {{ with resources.Get "css/style.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+  {{ end }}
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">NK<span>.</span></a>
+    <div class="nav-links">
+      <a href="#summary">Summary</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+    </div>
+    <button class="nav-cta" type="button" onclick="window.print()">PDF</button>
+  </div>
+</nav>
+
+<main class="wrap" id="top">
+  {{ partial "hero.html" . }}
+  {{ partial "summary.html" . }}
+  {{ partial "experience.html" . }}
+  {{ partial "projects.html" . }}
+  {{ partial "skills.html" . }}
+  {{ partial "education.html" . }}
+  {{ partial "publications.html" . }}
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>{{ site.Params.name }} · {{ site.Params.address }}</span>
+    <span class="mono">Last updated {{ now.Format "2006.01" }}</span>
+  </div>
+</footer>
+
+<script>
+  window.addEventListener('beforeprint', function () {
+    document.querySelectorAll('details').forEach(function (d) { d.open = true; });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{{ with hugo.Data.Experience }}
+<section id="experience">
+  <div class="sec-head"><span class="idx">02</span><h2>Experience</h2><span class="note">{{ .period }}</span></div>
+
+  {{ range .companies }}
+  <div class="company">
+    <div class="co-head">
+      <h3>{{ .company }}</h3>
+      {{ with .title }}<span class="title">{{ . }}</span>{{ end }}
+      <span class="date">{{ .date }}</span>
+    </div>
+    {{ with .desc }}<p class="co-desc">{{ . }}</p>{{ end }}
+
+    {{ range .roles }}
+    <div class="role-card">
+      <h4>{{ .name }}{{ with .date }} <span class="when">{{ . }}</span>{{ end }}</h4>
+      {{ range .points }}
+      <div class="pt">
+        <p>{{ .text | markdownify }}{{ with .label }} <span class="pt-label">{{ . }}</span>{{ end }}</p>
+        {{ with .sub }}
+        <ul>
+          {{ range . }}<li>{{ . | markdownify }}</li>{{ end }}
+        </ul>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ with .tags }}
+      <div class="tags">{{ range . }}<span class="tag">{{ . }}</span>{{ end }}</div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+{{ end }}

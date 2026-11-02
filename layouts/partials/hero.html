@@ -1,0 +1,19 @@
+{{ with hugo.Data.Profile }}
+<header class="hero">
+  <div class="eyebrow">{{ .eyebrow }}</div>
+  <h1>{{ site.Params.name }}</h1>
+  <p class="role"><b>{{ .company }}</b> {{ .role }}</p>
+  <p class="lead">{{ .headline }}</p>
+  <p class="lead-sub">{{ .intro }}</p>
+  <div class="links">
+    {{ range $link := .links }}{{ if $link.url }}
+    <a href="{{ $link.url }}">{{ $link.label }}</a>
+    {{ end }}{{ end }}
+  </div>
+  <div class="metrics">
+    {{ range .metrics }}
+    <div class="metric"><div class="num">{{ .value }}<small>{{ .unit }}</small></div><div class="label">{{ .label }}</div></div>
+    {{ end }}
+  </div>
+</header>
+{{ end }}
