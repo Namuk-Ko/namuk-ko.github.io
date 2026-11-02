@@ -42,8 +42,6 @@ ul { margin: 0; padding: 0; list-style: none; }
   border-bottom: 1px solid var(--border);
 }
 .nav .wrap { display: flex; align-items: center; gap: 24px; height: 56px; }
-.brand { font-size: 15px; font-weight: 600; letter-spacing: -0.01em; white-space: nowrap; flex-shrink: 0; }
-.brand-en { margin-left: 8px; font-family: var(--mono); font-size: 12px; font-weight: 400; color: var(--text-muted); }
 .nav-links { display: flex; gap: 20px; font-size: 13px; color: var(--text-muted); overflow-x: auto; scrollbar-width: none; }
 .nav-links::-webkit-scrollbar { display: none; }
 .nav-links a { white-space: nowrap; }
@@ -159,7 +157,6 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: s
 @media (max-width: 720px) {
   .hero { padding: 48px 0 32px; }
   .hero h1 { font-size: 34px; }
-  .brand-en { display: none; }
   .strengths, .proj-grid, .skills { grid-template-columns: minmax(0, 1fr); }
   .proj.featured { grid-column: auto; }
   .edu-item { grid-template-columns: minmax(0, 1fr); gap: 2px; }
