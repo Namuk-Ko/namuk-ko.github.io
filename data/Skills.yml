@@ -1,4 +1,4 @@
-# stack: 손에 쥔 도구(고유명사만). practices: 일하는 방법, evidence에 Experience 근거를 한 줄로
+# 손에 쥔 도구(고유명사만). 방법론은 Projects의 methods 태그로 표시
 stack:
   - name: "Search & Storage"
     items: [Qdrant, Elasticsearch, ScyllaDB, Aurora, MariaDB, MongoDB]
@@ -10,19 +10,3 @@ stack:
     items: [RDKit, SMILES, InChIKey]
   - name: "Ops & Governance"
     items: [Prometheus, Grafana, Docker, OpenMetadata]
-
-practices:
-  - name: "Golden-set Evaluation"
-    evidence: "정답셋으로 사전 매칭 정밀도 측정, 프롬프트 후보 비교 후 채택"
-  - name: "LLM Batch Inference"
-    evidence: "특허 1억 건 대상 배치, GPU 공유 제약에 맞춘 스케줄링"
-  - name: "Structured Output Design"
-    evidence: "JSON 출력 형식 정의와 후처리 판정 로직 구성"
-  - name: "Entity Resolution"
-    evidence: "여러 표기의 화합물을 구조 기준으로 통합, 이성질체는 분리 유지"
-  - name: "Pre-load Data Validation"
-    evidence: "적재 전 품질 검증과 증분 처리"
-  - name: "Zero-downtime Migration"
-    evidence: "Blue-Green 갱신, Kudu/Impala에서 Aurora로 무중단 전환"
-  - name: "Pipeline Reverse-engineering"
-    evidence: "문서 없는 파이프라인 역추적, 데이터 제품 7종의 필드 출처 확정"

@@ -1,6 +1,6 @@
 {{ with hugo.Data.Publications }}
 <section id="publications">
-  <div class="sec-head"><span class="idx">06</span><h2>Publications</h2><span class="note">{{ .note }}</span></div>
+  <div class="sec-head"><span class="idx">05</span><h2>Publications</h2><span class="note">{{ .note }}</span></div>
   <p class="pub-bridge">{{ .bridge }}</p>
   <ul class="pubs">
     {{ range .first_author }}{{ partial "pub-item.html" . }}{{ end }}
