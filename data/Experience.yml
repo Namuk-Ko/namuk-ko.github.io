@@ -13,12 +13,14 @@ companies:
           - text: "화학/바이오 특화 특허 검색 서비스의 데이터 전 구간(생성부터 서빙까지) 리드"
             sub:
               - "착수 9개월 만에 **2026.09** 베타 오픈 (서비스 개발은 별도 Product팀)"
-              - "제공 가능한 데이터의 형태와 품질을 정의해 Product팀 서비스 기획에 반영"
+              - "화합물 유형, 국가·기간 커버리지, 제공 필드 스펙, 품질 기준을 정의해 Product팀 서비스 기획의 기준으로 제공"
           - text: "화합물 엔티티 모델과 특허-화합물 관계 설계, 15개국 특허 전량 처리"
             sub:
               - "Delta Lake 적재, Elasticsearch·ScyllaDB 서빙 분담"
           - text: "LLM 기반 특허-화합물 추출 파이프라인 구축과 정답셋 기반 품질 기준 수립"
-          - text: "외부 화학 특화 LLM 비교 검증, 협업사 창구 및 C레벨 보고"
+          - text: "외부 화학 특화 LLM 검증, 협업사 창구 및 C레벨 보고"
+            sub:
+              - "협업사가 제시한 성능 점수를 자체 환경에서 재현하는 비교 실험 설계"
       - name: "검색·벡터 인프라 · 데이터 플랫폼"
         date: "2025.07 ~"
         points:
@@ -52,7 +54,11 @@ companies:
         points:
           - text: "MariaDB(Aria) 대용량 ERD 설계 및 Bulk Insert 최적화, Airflow ETL 파이프라인 구축"
           - text: "Python·Spark 전처리 및 Feature 생성, Elasticsearch·MongoDB로 서비스 데이터 제공"
-          - text: "발명자 국적 추정, 키워드 추천, 유망성 평가, 특허 소송 가능성 예측 모델"
+          - text: "KR/US 권리자 경쟁기업 DB, 특허 거절 데이터 DB 구축"
+          - text: "발명자 국적 추정 모델 기획·총괄 (2024.06 ~ 2024.10)"
             sub:
-              - "GPT-2 시퀀스 분류 fine-tuning, Neural Matrix Factorization, XGBoost·LightGBM"
+              - "GPT-2 시퀀스 분류 fine-tuning, FastAPI로 서빙해 특허 발명자·논문 저자 국적 추정에 활용"
+          - text: "키워드 추천, 유망성 평가, 특허 소송 가능성 예측 모델"
+            sub:
+              - "Neural Matrix Factorization, XGBoost·LightGBM"
         tags: [Python, Spark, MariaDB, Airflow, Elasticsearch, MongoDB, FastAPI]
