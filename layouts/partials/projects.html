@@ -1,6 +1,6 @@
 {{ with hugo.Data.Projects }}
 <section id="projects">
-  <div class="sec-head"><span class="idx">03</span><h2>Projects</h2><span class="note">{{ .note }}</span></div>
+  <div class="sec-head"><span class="idx">02</span><h2>Projects</h2><span class="note">{{ .note }}</span></div>
   <div class="proj-grid">
     {{ range .items }}
     <article class="proj{{ if .featured }} featured{{ end }}">
@@ -13,6 +13,9 @@
       <div class="flow">
         {{ range $i, $n := . }}{{ if $i }}<span class="arr">→</span>{{ end }}<span class="node">{{ $n }}</span>{{ end }}
       </div>
+      {{ end }}
+      {{ with .methods }}
+      <div class="methods">{{ range . }}<span class="method">{{ . }}</span>{{ end }}</div>
       {{ end }}
       {{ with .tags }}
       <div class="tags">{{ range . }}<span class="tag">{{ . }}</span>{{ end }}</div>

@@ -26,7 +26,6 @@
   <div class="wrap">
     <a class="brand" href="#top">NK<span>.</span></a>
     <div class="nav-links">
-      <a href="#summary">Summary</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
@@ -39,7 +38,6 @@
 
 <main class="wrap" id="top">
   {{ partial "hero.html" . }}
-  {{ partial "summary.html" . }}
   {{ partial "experience.html" . }}
   {{ partial "projects.html" . }}
   {{ partial "skills.html" . }}
@@ -50,7 +48,7 @@
 <footer>
   <div class="wrap">
     <span>{{ site.Params.name }} · {{ site.Params.address }}</span>
-    <span class="mono">Last updated {{ now.Format "2006.01" }}</span>
+    <span class="mono">Last updated {{ hugo.Data.Profile.updated }}</span>
   </div>
 </footer>
 
