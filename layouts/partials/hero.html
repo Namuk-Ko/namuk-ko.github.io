@@ -1,7 +1,7 @@
 {{ with hugo.Data.Profile }}
 <header class="hero">
   <div class="eyebrow">{{ .eyebrow }}</div>
-  <h1>{{ site.Params.name }}</h1>
+  <h1>{{ site.Params.name_ko }}<span class="name-en">{{ site.Params.name }}</span></h1>
   <p class="role"><b>{{ .company }}</b> {{ .role }}</p>
   <p class="lead">{{ .headline }}</p>
   <p class="lead-sub">{{ .intro }}</p>
