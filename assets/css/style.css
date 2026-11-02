@@ -134,6 +134,12 @@ section { padding: 56px 0; border-top: 1px solid var(--border); }
 .skill h3 { font-family: var(--mono); font-size: 13px; color: var(--accent); margin: 0 0 10px; font-weight: 500; }
 .skill .tags { margin-top: 0; }
 .skill .tag { color: var(--text); }
+.sub-head { font-family: var(--mono); font-size: 12px; font-weight: 500; color: var(--text-muted); letter-spacing: 0.06em; text-transform: uppercase; margin: 0 0 12px; }
+.skills + .sub-head { margin-top: 32px; }
+.practices { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 24px; }
+.practices li { display: flex; flex-direction: column; padding: 12px 0; border-top: 1px solid var(--border); }
+.pr-name { font-family: var(--mono); font-size: 13px; color: var(--accent); }
+.pr-evidence { font-size: 14px; color: var(--text-muted); margin-top: 2px; }
 
 /* education */
 .edu { display: grid; gap: 12px; }
@@ -163,7 +169,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: s
   .hero { padding: 48px 0 32px; }
   .hero h1 { font-size: 34px; }
   .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .focus, .proj-grid, .skills { grid-template-columns: minmax(0, 1fr); }
+  .focus, .proj-grid, .skills, .practices { grid-template-columns: minmax(0, 1fr); }
   .proj.featured { grid-column: auto; }
   .edu-item { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   .co-head .date { margin-left: 0; width: 100%; }
