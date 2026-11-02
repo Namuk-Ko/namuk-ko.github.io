@@ -100,7 +100,9 @@ section { padding: 56px 0; border-top: 1px solid var(--border); }
 .co-head .title { color: var(--text-muted); font-size: 14px; }
 .co-head .date { margin-left: auto; font-family: var(--mono); font-size: 13px; color: var(--accent); }
 .co-desc { color: var(--text-dim); font-size: 13px; margin: 2px 0 16px; }
-.role-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 22px; margin-top: 12px; }
+.co-desc:has(+ .co-note) { margin-bottom: 4px; }
+.co-note { display: inline-block; font-family: var(--mono); font-size: 12px; color: var(--text-muted); border: 1px solid var(--border-strong); border-radius: 6px; padding: 2px 8px; margin: 0 0 16px; }
+.role-card {background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 22px; margin-top: 12px; }
 .role-card h4 { font-size: 15px; margin: 0 0 12px; font-weight: 600; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
 .role-card h4 .when { font-family: var(--mono); font-size: 12px; color: var(--text-muted); font-weight: 400; }
 .pt + .pt { margin-top: 14px; }
