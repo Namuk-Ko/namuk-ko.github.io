@@ -52,6 +52,14 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .nav-cta:hover { background: var(--accent-soft); }
 button.nav-cta { background: none; cursor: pointer; font-family: var(--mono); }
+.to-top {
+  position: fixed; right: 20px; bottom: 20px; z-index: 10;
+  width: 40px; height: 40px; display: grid; place-items: center;
+  background: var(--surface); border: 1px solid var(--accent-line); border-radius: 50%;
+  color: var(--accent); opacity: 0; visibility: hidden; transition: opacity 0.2s, visibility 0.2s;
+}
+.to-top.show { opacity: 1; visibility: visible; }
+.to-top:hover { background: var(--surface-2); }
 
 /* hero */
 .hero { padding: 72px 0 48px; }
@@ -168,7 +176,7 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: s
 
 @media print {
   :root { --bg: #fff; --surface: #fff; --surface-2: #f4f5f7; --border: #dde1e7; --border-strong: #c9ced6; --text: #111; --text-muted: #444; --text-dim: #666; --accent: #0F766E; --accent-soft: #f0fdfa; --accent-line: #99d5cc; }
-  .nav { display: none; }
+  .nav, .to-top { display: none; }
   section, .role-card, .proj { break-inside: avoid; }
   details > *:not(summary) { display: block; }
   summary { display: none; }
