@@ -1,0 +1,13 @@
+groups:
+  - name: "Search & Storage"
+    items: [Qdrant, Elasticsearch, ScyllaDB, Aurora, MariaDB, MongoDB]
+  - name: "Processing"
+    items: [Spark, Databricks, Delta Lake, Airflow, Ray]
+  - name: "LLM & ML"
+    items: [LLM 추출 파이프라인, 프롬프트 평가, GPT-2 fine-tuning, XGBoost, LightGBM]
+  - name: "Chemistry"
+    items: [RDKit, PubChem, 화합물 정규화]
+  - name: "Ops & Governance"
+    items: [Prometheus, Grafana, Docker, OpenMetadata]
+  - name: "Languages & Serving"
+    items: [Python, FastAPI]

@@ -1,0 +1,67 @@
+# authors 안의 **Ko, N.** 는 굵게 표시됨
+note: "저널 12편 · 주저자 4편"
+bridge: "특허·상표·소셜미디어 등 이종 데이터를 연결해 기술·사업 기회를 찾는 연구를 해왔고, 이 관점이 지금의 특허-화합물 데이터 연계로 이어졌습니다."
+
+first_author:
+  - venue: "Computers in Industry"
+    year: 2020
+    title: "Patent-trademark linking framework for business competition analysis"
+    url: "https://doi.org/10.1016/j.compind.2020.103242"
+    authors: "**Ko, N.**, Jeong, B., Yoon, J., & Son, C."
+  - venue: "Computers & Industrial Engineering"
+    year: 2019
+    title: "A transferability evaluation model for intellectual property"
+    url: "https://doi.org/10.1016/j.cie.2019.04.011"
+    authors: "**Ko, N.**, Jeong, B., Seo, W., & Yoon, J."
+  - venue: "IEEE Access"
+    year: 2017
+    title: "Identifying product opportunities using social media mining: application of topic modeling and chance discovery theory"
+    url: "https://doi.org/10.1109/ACCESS.2017.2780046"
+    authors: "**Ko, N.**, Jeong, B., Choi, S., & Yoon, J."
+  - venue: "Expert Systems with Applications"
+    year: 2014
+    title: "Analyzing interdisciplinarity of technology fusion using knowledge flows of patents"
+    url: "https://doi.org/10.1016/j.eswa.2013.08.091"
+    authors: "**Ko, N.**, Yoon, J., & Seo, W."
+
+co_author:
+  - venue: "Technological Forecasting and Social Change"
+    year: 2021
+    title: "Inventor group identification approach for selecting university-industry collaboration partners"
+    url: "https://doi.org/10.1016/j.techfore.2021.120988"
+    authors: "Chung, J., **Ko, N.**, & Yoon, J."
+  - venue: "Technological Forecasting and Social Change"
+    year: 2021
+    title: "An approach for discovering firm-specific technology opportunities: Application of link prediction to F-term networks"
+    url: "https://doi.org/10.1016/j.techfore.2021.120746"
+    authors: "Lee, J., **Ko, N.**, Yoon, J., & Son, C."
+  - venue: "Journal of Informetrics"
+    year: 2021
+    title: "Inventor profile mining approach for prospective human resource scouting"
+    url: "https://doi.org/10.1016/j.joi.2020.101103"
+    authors: "Chung, J., **Ko, N.**, Kim, H., & Yoon, J."
+  - venue: "Computers in Industry"
+    year: 2021
+    title: "Trademark-based framework to uncover business diversification opportunities: Application of deep link prediction and competitive intelligence analysis"
+    url: "https://doi.org/10.1016/j.compind.2020.103356"
+    authors: "Jeong, B., **Ko, N.**, Son, C., & Yoon, J."
+  - venue: "Scientometrics"
+    year: 2020
+    title: "Predicting product development directions for new product planning using patent classification-based link prediction"
+    url: "https://doi.org/10.1007/s11192-020-03709-w"
+    authors: "Oh, S., Choi, J., **Ko, N.**, & Yoon, J."
+  - venue: "Recent Patents on Anti-Cancer Drug Discovery"
+    year: 2016
+    title: "Mapping the technological knowledge landscape: The case of epigenetics"
+    url: "https://doi.org/10.2174/1574892811666160825143006"
+    authors: "Hoon Song, C., Yoon, J., **Ko, N.**, & Han, J. W."
+  - venue: "Industrial Engineering and Management Systems"
+    year: 2015
+    title: "A function-based knowledge base for technology intelligence"
+    url: "https://doi.org/10.7232/iems.2015.14.1.073"
+    authors: "Yoon, J., **Ko, N.**, Kim, J., Lee, J. M., Coh, B. Y., & Song, I."
+  - venue: "Scientometrics"
+    year: 2014
+    title: "Analyzing technology impact networks for R&D planning using patents: combined application of network approaches"
+    url: "https://doi.org/10.1007/s11192-014-1343-2"
+    authors: "Ko, S. S., **Ko, N.**, Kim, D., Park, H., & Yoon, J."

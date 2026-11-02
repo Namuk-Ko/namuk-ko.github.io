@@ -1,0 +1,17 @@
+{{ with hugo.Data.Publications }}
+<section id="publications">
+  <div class="sec-head"><span class="idx">06</span><h2>Publications</h2><span class="note">{{ .note }}</span></div>
+  <p class="pub-bridge">{{ .bridge }}</p>
+  <ul class="pubs">
+    {{ range .first_author }}{{ partial "pub-item.html" . }}{{ end }}
+  </ul>
+  {{ with .co_author }}
+  <details>
+    <summary>공저 논문 {{ len . }}편 펼치기</summary>
+    <ul class="pubs">
+      {{ range . }}{{ partial "pub-item.html" . }}{{ end }}
+    </ul>
+  </details>
+  {{ end }}
+</section>
+{{ end }}

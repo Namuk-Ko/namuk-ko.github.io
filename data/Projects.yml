@@ -1,0 +1,47 @@
+# featured: true 이면 전체 폭 카드. rows는 라벨-내용 쌍, flow는 데이터 흐름 노드 순서
+note: "문제 · 판단 · 결과"
+
+items:
+  - title: "특허-화합물 데이터 구축과 LLM 추출 전환"
+    meta: "2026 · 워트인텔리전스"
+    featured: true
+    rows:
+      - label: "문제"
+        text: "화학/바이오 특허 검색 서비스에 필요한 특허-화합물 관계를 15개국 특허 전량에서 확보해야 함"
+      - label: "판단"
+        text: "사전 매칭 정밀도를 정답셋으로 측정해 7.5%임을 확인하고 폐기, LLM 추출과 구조 기준 이름 정규화로 전환"
+      - label: "결과"
+        text: "추출 정확도 94.4%, 화합물 1.56억 건, 관계 18.5억 건 구축, 착수 9개월 만에 베타 오픈"
+    flow: ["특허 원문", "LLM 추출", "정규화 · PubChem 조인", "Delta Lake", "ES · ScyllaDB"]
+    tags: [LLM, RDKit, Databricks, Delta Lake, ScyllaDB]
+
+  - title: "특허 1억 건 벡터 검색 인프라"
+    meta: "2025 ~ · 워트인텔리전스"
+    featured: true
+    rows:
+      - label: "문제"
+        text: "15개국 특허 1억 건 이상에 대한 의미 기반 검색을 무중단으로 갱신하며 운영해야 함"
+      - label: "판단"
+        text: "Blue-Green 갱신, Qdrant 5노드 클러스터, 장애 원인(인덱스 설정 누락)을 규명해 영구 조치"
+      - label: "결과"
+        text: "1억 561만 건 적재, 검색 응답 5.4ms에서 2.2ms로 단축"
+    flow: ["Elasticsearch", "LLM 키워드·요약", "Aurora", "Qdrant"]
+    tags: [Qdrant, Elasticsearch, Aurora, Prometheus, Grafana]
+
+  - title: "특허-논문-Web 통합 기술전략 시스템"
+    meta: "2022.10 ~ 2024.12 · 광개토연구소 with 삼성전자"
+    rows:
+      - label: "규모"
+        text: "Semantic Scholar·OpenAlex 통합, 학술논문 2억 건+ DB"
+      - label: "결과"
+        text: "특허 연계, 기관별 지표 산출, 월 단위 자동 갱신"
+    tags: [Spark, MariaDB, Airflow, Ray]
+
+  - title: "발명자 국적 추정 모델"
+    meta: "2024.06 ~ 2024.10 · 광개토연구소"
+    rows:
+      - label: "방법"
+        text: "Nana Dataset과 발명자 영문명으로 GPT-2 시퀀스 분류 fine-tuning"
+      - label: "결과"
+        text: "FastAPI 서빙, 특허 발명자·논문 저자 국적 추정에 활용"
+    tags: [GPT-2, FastAPI]

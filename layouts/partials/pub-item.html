@@ -1,0 +1,5 @@
+<li>
+  <span class="venue">{{ .venue }} · {{ .year }}</span>
+  {{ with .url }}<a class="pt-title" href="{{ . }}">{{ $.title }}</a>{{ else }}<span class="pt-title">{{ .title }}</span>{{ end }}
+  <span class="cite">{{ .authors | markdownify }}</span>
+</li>

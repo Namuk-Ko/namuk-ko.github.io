@@ -1,0 +1,11 @@
+baseURL = "https://namuk-ko.github.io/"
+locale = "ko-KR"
+title = "Namuk Ko | Data Engineer"
+disableKinds = ["taxonomy", "term", "section", "rss"]
+
+[params]
+  name = "Namuk Ko"
+  address = "Seoul, Korea"
+  description = "특허·화합물·논문 데이터를 연계해 새로운 검색·분석 축을 만드는 데이터 엔지니어 Namuk Ko"
+  icon = "/assets/img/icon.webp"
+  # 연락처·링크·첫 화면 문구와 각 섹션 내용은 data/*.yml 에서 관리
