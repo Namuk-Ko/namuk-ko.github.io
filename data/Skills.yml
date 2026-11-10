@@ -1,0 +1,12 @@
+# 손에 쥔 도구. Experience·Projects에 사용 근거가 있는 것만 둔다
+stack:
+  - name: "Search & Storage"
+    items: [Qdrant, Elasticsearch, ScyllaDB, Aurora, MariaDB, MongoDB]
+  - name: "Processing"
+    items: [Python, SQL, Spark, Databricks, Delta Lake, Airflow, Ray]
+  - name: "ML & Serving"
+    items: [LLM Pipeline, XGBoost, LightGBM, FastAPI]
+  - name: "Chemical Data"
+    items: [RDKit, SMILES, InChIKey]
+  - name: "Monitoring"
+    items: [Prometheus, Grafana]
